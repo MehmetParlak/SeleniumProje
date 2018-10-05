@@ -21,7 +21,7 @@ public class ChartPage extends TestBase{
     public LoginPage loginToCheckout(){
         continueCheckout.click();
         try {
-            Thread.sleep(3000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

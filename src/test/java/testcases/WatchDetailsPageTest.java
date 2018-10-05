@@ -36,7 +36,6 @@ public class WatchDetailsPageTest extends TestBase {
     public void validateWatchDetailsPageTitleTest() {
         String title = watchPage.validateWatchPageTitle();
         Assert.assertEquals(title, "Beverly Hills Polo Club BH0012-05 Erkek Kol Saati Fiyatı");
-        System.out.println(title);
     }
 
     @Test(priority = 2)

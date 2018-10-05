@@ -33,7 +33,6 @@ public class WatchPageTest extends TestBase {
     public void validateWatchPageTitleTest() {
         String title = watchPage.validateWatchPageTitle();
         Assert.assertEquals(title, "Kol Saatlerinde % 70 indirim & Kampanyalı Fiyatlar");
-        System.out.println(title);
     }
 
     @Test(priority = 2)

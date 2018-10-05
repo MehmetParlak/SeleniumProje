@@ -23,7 +23,7 @@ public class WatchPage extends TestBase {
     public WatchDetailsPage selectFirstWatch(){
         firstWatch.click();
         try {
-            Thread.sleep(3000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

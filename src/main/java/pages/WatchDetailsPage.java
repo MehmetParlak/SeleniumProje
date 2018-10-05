@@ -21,7 +21,7 @@ public class WatchDetailsPage extends TestBase {
     public ChartPage addWatchtoChart(){
         addToChart.click();
         try {
-            Thread.sleep(3000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

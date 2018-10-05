@@ -22,8 +22,6 @@ public class HomePage extends TestBase {
 
 
     public String validateHomePageTitle() {
-        System.out.println("mehmet bro");
-        System.out.println(driver.getTitle());
         return driver.getTitle();
     }
 
@@ -32,7 +30,7 @@ public class HomePage extends TestBase {
         actions.moveToElement(hepsiModa).build().perform();
         kol_saatleri.click();
         try {
-            Thread.sleep(3000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

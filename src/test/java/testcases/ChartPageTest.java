@@ -37,7 +37,6 @@ public class ChartPageTest extends TestBase {
     public void chartPageTitleTest() {
         String title = chartPage.validateChartPageTitle();
         Assert.assertEquals(title, "Sepetim");
-        System.out.println(title);
     }
 
     @Test(priority = 2)

@@ -41,7 +41,6 @@ public class CheckoutPageTest extends TestBase {
     public void checkOutPageTitleTest() {
         String title = checkoutPage.validateCheckoutPagePageTitle();
         Assert.assertEquals(title, "Teslimat Bilgileri");
-        System.out.println(title);
     }
 
     @AfterMethod

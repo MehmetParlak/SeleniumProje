@@ -31,7 +31,6 @@ public class HomePageTest extends TestBase {
     public void validateHomePageTitleTest() {
         String title = homePage.validateHomePageTitle();
         Assert.assertEquals(title, "Türkiye'nin En Büyük Online Alışveriş Sitesi Hepsiburada.com");
-        System.out.println(title);
     }
 
     @Test(priority = 2)

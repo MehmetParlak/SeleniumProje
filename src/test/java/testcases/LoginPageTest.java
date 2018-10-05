@@ -40,7 +40,6 @@ public class LoginPageTest extends TestBase {
     public void loginPageTitleTest() {
         String title = loginPage.validateLoginPageTitle();
         Assert.assertEquals(title, "Üye Giriş Sayfası – Hepsiburada.com");
-        System.out.println(title);
     }
 
     @Test(priority = 2)

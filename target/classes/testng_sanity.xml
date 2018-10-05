@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="FREE CRM Application Test Automation Test Suite">
-	<test name="Free CRM App Test Cases">
+<suite name="Hepsiburada.com Test Automation Test Suite">
+	<test name="Hepsiburada.com Test Cases">
 		<classes>
 			<class name="testcases.HomePageTest"></class>
 			<class name="testcases.WatchPageTest"></class>
